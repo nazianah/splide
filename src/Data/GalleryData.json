@@ -1,0 +1,30 @@
+{
+    "title": "Pregnancy Tools",
+    "tools": [
+      {
+        "image": "https://images.ctfassets.net/9wtva4vhlgxb/1POG2lQ6BoDOfNuj8CIJ01/afd2dc915766efc7ed79b9a65c481f95/rectangle.png?fm=webp&q=70",
+        "doddle": "https://images.ctfassets.net/9wtva4vhlgxb/66dfJRF5e1xxh1ElQNnPBf/92f3cff9d4d41088d4c634429cc38770/ddc.svg?fm=webp&q=70",
+        "text": "PREGNANCY DUE DATE CALCULATOR"
+      },
+      {
+        "image": "https://images.ctfassets.net/9wtva4vhlgxb/1PXIUsF3gkNMdcc7DHPISE/2a4bcbda59687dd11658c594c73a4adc/Rectangle_526.png?fm=webp&q=70",
+        "doddle": "https://images.ctfassets.net/9wtva4vhlgxb/1IxOQ4O60hSxjujJw6EsIn/a57d67fc285347093aa33cc864ef53ef/cgp.svg?fm=webp&q=70",
+        "text": "CHINESE GENDER PREDICTOR"
+      },
+      {
+        "image": "https://images.ctfassets.net/9wtva4vhlgxb/4DJtRijqIY6jcGeGqG6ZX0/7ffde1ec952b2a44607717a79f5861af/rectangle.jpg?fm=webp&q=70",
+        "doddle": "https://images.ctfassets.net/9wtva4vhlgxb/5vrh5zGpnfT5qZBSLkL3de/7dac9cb5887b4f00b1923c1bf1e92830/bng.svg",
+        "text": "BABY NAME GENERATOR"
+      },
+      {
+        "image": "https://images.ctfassets.net/9wtva4vhlgxb/58DE29qBHkHzsINQCQFiZJ/86168210ed97b93e6207eb248778a4bf/rectangle_2x.png?fm=webp&q=70",
+        "doddle": "https://images.ctfassets.net/9wtva4vhlgxb/4tn1QSdqnkYIN78LkhIBs7/6fb78559d0153496b9e223bd9119f5ba/Icon_planet__1_.svg?fm=webp&q=70",
+        "text": "BABY BIRTHDAY FACTS"
+      }
+    ],
+    "button": {
+      "text": "More pregnancy tools",
+      "link": "https://www.pampers.com/en-us/pregnancy"
+    }
+  }
+  
