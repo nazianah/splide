@@ -18,7 +18,7 @@ const Gallery = () => {
     autoplay: true,
     pauseOnHover: true,
     interval: 3000,
-    perPage: 4, 
+    perPage: 1, 
     breakpoints: {
       768: { 
         perPage: 1, 
@@ -42,7 +42,7 @@ const Gallery = () => {
           </SplideSlide>
         ))}
       </Splide>
-      <Button text={GalleryData.button.text} link={GalleryData.button.link} />
+      <Button className={GalleryData.button.className} text={GalleryData.button.text} link={GalleryData.button.link} />
     </div>
   );
 };
