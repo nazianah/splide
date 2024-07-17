@@ -3,7 +3,7 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css'; // Default theme
 import Button from "../Component/Button";
 import GalleryData from '../Data/GalleryData.json';
-
+import "./Gallery.css"
 
 const Gallery = () => {
   return (
@@ -12,30 +12,20 @@ const Gallery = () => {
         <h2>{GalleryData.title}</h2>
       </div>
       <Splide
-      options={{
-        width: "100%",
-        rewind: true,
-        autoplay: "true",
-        perPage: 2,
-        perMove: "1",
-        gap: "2rem",
-        height: "15rem",
-        type: "loop",
-        rewindSpeed: "3000",
-        arrows: "true",
-        pagination: "false",
-        autoScroll: {
-          speed: 3,
-          pauseOnHover: true,
-          pauseOnFocus: false,
-        },
-        breakpoints: {
-          1000: {
-            perPage: 1,
-          },
-        },
-      }}
-      >
+  options={{
+    type: 'loop',
+    perMove: 1,
+    autoplay: true,
+    pauseOnHover: true,
+    interval: 3000,
+    perPage: 4, 
+    breakpoints: {
+      768: { 
+        perPage: 1, 
+      },
+    },
+  }}
+>
         {GalleryData.tools.map((tool, index) => (
           <SplideSlide key={index}>
             <div className="gal">
