@@ -7,6 +7,7 @@ import "./Gallery.css"
 
 const Gallery = () => {
   return (
+    <div className="gal">
     <div className="gallery-container">
       <div className="title">
         <h2>{GalleryData.title}</h2>
@@ -19,9 +20,10 @@ const Gallery = () => {
     pauseOnHover: true,
     interval: 3000,
     perPage: 1, 
+    mediaQuery: 'min',
     breakpoints: {
       768: { 
-        perPage: 1, 
+        perPage: 4, 
       },
     },
   }}
@@ -43,6 +45,7 @@ const Gallery = () => {
         ))}
       </Splide>
       <Button className={GalleryData.button.className} text={GalleryData.button.text} link={GalleryData.button.link} />
+    </div>
     </div>
   );
 };

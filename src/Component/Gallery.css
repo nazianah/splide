@@ -41,7 +41,10 @@
     font-size: 16px;
 }
 .splide__pagination__page,.splide__arrow  {
-    background: rgb(226, 192, 192) !important;
+    background: teal !important;
+    /* margin-top: 20px !important; */
+
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -54,11 +57,23 @@
 }
 @media screen and (min-width: 1024px){
     .splide__slide{
-        width: calc(12%) !important;
+        /* width: calc(12%) !important; */
         /* max-width: 1024px; */
+        width: 100%;
 }
     .gallery-container{
-        padding-inline: 330px;
+        /* padding-inline: 330px; */
+        width: 100%;
+        margin: 0 auto;
+    }
+    .gal{
+        max-width: 1180px;
+        margin: 0 auto;
+    }
+    .splide__pagination{
+        position: relative !important;
+        margin-top: 20px !important;
+        /* color: aqua !important; */
     }
 
     
